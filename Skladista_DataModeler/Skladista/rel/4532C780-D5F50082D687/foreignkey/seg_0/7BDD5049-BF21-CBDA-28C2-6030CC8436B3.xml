@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7BDD5049-BF21-CBDA-28C2-6030CC8436B3" containerWithKeyObject="9BCE6FD1-4FE4-3633-9603-88DC430C4552" localFKIndex="583D2E0A-3328-0B02-71B0-2EC98936ED69" name="Obrada_proizvoda_fact_Batch_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-28 18:09:22 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<referredTableLongName>Batch_dim</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>05654F37-CAF5-CE78-981C-A42CA9C10EC9</referredTableID>
+<keyObject>47326FFF-65DC-A6ED-E8E5-86AF042FF29E</keyObject>
+<referredKeyID>47326FFF-65DC-A6ED-E8E5-86AF042FF29E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

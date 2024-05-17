@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="413EF1FC-D4C7-6F97-D408-282CBE6FE264" name="Pad_fact">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 15:22:23 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<ordsAlias>table_39</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ispasa_dim_id" id="1548DA53-7091-8AFF-67B7-8949B32D9E39">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 15:22:45 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29E19D54-9A5A-F51B-E984-69DBDD603ACC" referredColumn="DB4677E6-1442-DDD9-75FF-007C70A94341"/>
+</associations>
+</Column>
+<Column name="Ovca_dim_id" id="184BEEBF-02CA-2807-19AF-DF3706DFCB46">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 15:22:52 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7249E73A-5FC5-4A01-917E-0AEE3BA2175F" referredColumn="53A0B933-D5DD-8E43-BE68-C411BB0BB903"/>
+</associations>
+</Column>
+<Column name="Datum_i_Vreme_dim_id" id="ED1EF585-BE0C-6F27-6AA9-438A795ACB64">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 15:23:05 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="233AD9DE-9F51-72B6-F190-EA4614ED11F9" referredColumn="9787242E-8143-FCBE-47A2-F2980F0B03A6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="296B761F-3A86-D9AB-099B-25641BAA0D68" name="Pad_fact_Ispasa_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 15:22:45 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1548DA53-7091-8AFF-67B7-8949B32D9E39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99DC668B-78D2-D969-6769-E83D031A3BD4" name="Pad_fact_Ovca_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 15:22:52 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="184BEEBF-02CA-2807-19AF-DF3706DFCB46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81365AEF-C60B-5442-827B-205E57100305" name="Pad_fact_Datum_i_Vreme_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 15:23:05 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED1EF585-BE0C-6F27-6AA9-438A795ACB64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

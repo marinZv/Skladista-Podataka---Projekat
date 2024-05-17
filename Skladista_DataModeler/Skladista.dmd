@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Skladista" id="6207021E-F7FE-AA7D-7330-9B232DE851D5" version="3.5">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 11:42:52 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6207021E-F7FE-AA7D-7330-9B232DE851D5</designId>
+</OSDM_Design>

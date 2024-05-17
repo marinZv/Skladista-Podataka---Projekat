@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="08C55CB6-4BBE-B2DC-8752-BD963385DB15" name="Dodela_stada_fact">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 12:06:26 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Domacinstvo_dim_id" id="2161C0D3-1509-A2E3-7E1A-8DD3FAE59ECE">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 12:08:46 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="256DBF09-7EB3-C11D-013F-166F3BF56A35" referredColumn="356F14BB-B0BF-20BC-B087-5C090F3AC899"/>
+</associations>
+</Column>
+<Column name="Stado_dim_id" id="8FFD24AE-EEAA-824F-A929-4A76F835C0DA">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 12:25:39 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7721A5E8-B415-37B4-B36C-EB3C3EAF469E" referredColumn="2C254614-2332-36F9-7209-A1D25547F489"/>
+</associations>
+</Column>
+<Column name="Datum_i_Vreme_dim_id" id="207AC2F6-9ED6-6C88-49B5-99BFF1A820D0">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 12:33:07 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="289F1952-9125-0DDB-AF15-13CECE77F770" referredColumn="9787242E-8143-FCBE-47A2-F2980F0B03A6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E06D0E8C-B6B2-9666-5C72-5FA8B09E3D5E" name="Dodela_stada_fact_PK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-28 18:43:26 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2161C0D3-1509-A2E3-7E1A-8DD3FAE59ECE"/>
+<colUsage columnID="8FFD24AE-EEAA-824F-A929-4A76F835C0DA"/>
+<colUsage columnID="207AC2F6-9ED6-6C88-49B5-99BFF1A820D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B26E09B-F1B7-898E-668B-8FB03110333C" name="Nalazi_se_fact_Domacinstvo_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 12:08:46 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2161C0D3-1509-A2E3-7E1A-8DD3FAE59ECE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D7DE0DA-7A7E-B2BA-DC11-90BD8903F1C4" name="Nalazi_se_fact_Stado_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 12:25:39 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FFD24AE-EEAA-824F-A929-4A76F835C0DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B470A0D2-18D6-060F-5534-02CB06BA2CD3" name="Nalazi_se_fact_Datum_i_Vreme_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 12:33:07 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="207AC2F6-9ED6-6C88-49B5-99BFF1A820D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

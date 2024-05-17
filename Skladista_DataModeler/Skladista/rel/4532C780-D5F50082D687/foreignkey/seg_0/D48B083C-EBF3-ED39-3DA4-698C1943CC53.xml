@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D48B083C-EBF3-ED39-3DA4-698C1943CC53" containerWithKeyObject="E933E751-A74D-F99B-CFA9-FEA327531482" localFKIndex="3200B13C-0638-B3B7-A935-0C633E01AAA4" name="Dodela_cobana_ispasi_fact_Coban_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 12:42:22 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<referredTableLongName>Coban_dim</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F4BB49E8-D845-0E1D-697D-91149D8F7B56</referredTableID>
+<keyObject>21C1FA81-2D02-6743-3ED4-57C3B9359E19</keyObject>
+<referredKeyID>21C1FA81-2D02-6743-3ED4-57C3B9359E19</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

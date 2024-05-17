@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49AFA5E9-8F2C-312D-6DD6-33DBA3624CD2" name="Pomeranje_fact">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 13:33:21 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ovca_dim_id" id="1CFF2E06-2344-2249-581F-A0D3932AB8AD">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 13:34:08 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09F720A5-AEB2-F29C-7901-B5FC213CE28C" referredColumn="53A0B933-D5DD-8E43-BE68-C411BB0BB903"/>
+</associations>
+</Column>
+<Column name="Datum_i_Vreme_dim_id" id="B9F460CB-DE96-0409-D8C5-4D0E33B9991F">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 13:34:20 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="296BD70C-A27B-4FA3-EB98-1B7CD26D3C26" referredColumn="9787242E-8143-FCBE-47A2-F2980F0B03A6"/>
+</associations>
+</Column>
+<Column name="Stado_dim_id" id="CF8EFF99-9D2D-1FE9-3A84-6CFA07CA6A99">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 13:35:03 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22C9053D-941E-2194-3989-01FF85944E2B" referredColumn="2C254614-2332-36F9-7209-A1D25547F489"/>
+</associations>
+</Column>
+<Column name="Stado_dim_id1" id="A1D18F2C-84D3-1C54-E3CB-6CFA4A1DF929">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 13:35:11 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74BB642C-2DF7-BC40-DBBF-86638F4E5B18" referredColumn="2C254614-2332-36F9-7209-A1D25547F489"/>
+</associations>
+</Column>
+<Column name="Razlog_dim_id" id="13A8E541-B70A-C32F-B6BD-C02C3AF8CF79">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 12:34:56 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6F47351-D87E-D1C5-19A9-510160A8FC73" referredColumn="9F35368B-FE55-0881-8E92-DD5201FF409E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7EB15BB-ED9E-939D-6C6A-00CDEF01DBAD" name="Pomeranje_fact_PK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-28 18:41:33 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CFF2E06-2344-2249-581F-A0D3932AB8AD"/>
+<colUsage columnID="B9F460CB-DE96-0409-D8C5-4D0E33B9991F"/>
+<colUsage columnID="CF8EFF99-9D2D-1FE9-3A84-6CFA07CA6A99"/>
+<colUsage columnID="A1D18F2C-84D3-1C54-E3CB-6CFA4A1DF929"/>
+<colUsage columnID="13A8E541-B70A-C32F-B6BD-C02C3AF8CF79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="256DDA63-7E4D-3B0A-2161-41C2F7F3C352" name="Pomeranje_fact_Ovca_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 13:34:08 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CFF2E06-2344-2249-581F-A0D3932AB8AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D213B185-C195-D294-142E-70A707C1A255" name="Pomeranje_fact_Datum_i_Vreme_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 13:34:20 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9F460CB-DE96-0409-D8C5-4D0E33B9991F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26F8EDCA-7251-7CF2-B5E8-71F59754F505" name="Pomeranje_fact_Stado_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 13:35:03 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF8EFF99-9D2D-1FE9-3A84-6CFA07CA6A99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D75BAE74-F786-A199-5283-9E72936575AC" name="Pomeranje_fact_Stado_dim_FKv2">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 13:35:11 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1D18F2C-84D3-1C54-E3CB-6CFA4A1DF929"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF6D3E87-F6E2-7C2A-84A6-39EF6084560C" name="Pomeranje_fact_Razlog_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 12:34:56 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13A8E541-B70A-C32F-B6BD-C02C3AF8CF79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

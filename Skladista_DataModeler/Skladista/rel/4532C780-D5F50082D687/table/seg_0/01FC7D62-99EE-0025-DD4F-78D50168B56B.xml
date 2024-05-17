@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01FC7D62-99EE-0025-DD4F-78D50168B56B" name="Razlog_dim">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-15 08:39:30 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="9F35368B-FE55-0881-8E92-DD5201FF409E">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 12:34:51 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4AF4D074-8944-548C-D52D-5CFFE4E56BC6" name="Razlog_dim_PK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 12:34:51 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F35368B-FE55-0881-8E92-DD5201FF409E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="B34DBF87-5B05-2152-CB52-79F888417F15" name="Relational_1" visible="true"/>
+   <object objectType="sub_view" objectID="5C0C41DA-0ABA-79EB-6D9A-612F8BDF876C" name="A_aukcija_dim" visible="true"/>
+   <object objectType="sub_view" objectID="81EBDE87-0A47-AB76-A929-7638E2999D93" name="A_obrada_proizvoda" visible="true"/>
+   <object objectType="sub_view" objectID="7AF153A7-83EF-4F44-3D9B-0D3C570272B9" name="A_rodjenje_smrt_pad" visible="true"/>
+   <object objectType="sub_view" objectID="97B7E405-0EF4-3A30-B5B4-CEF0B363BEC4" name="A_skladiste" visible="true"/>
+   <object objectType="sub_view" objectID="8880D9D8-107B-B8C5-F4EA-655A7599DC00" name="A_velikoprodaja" visible="true"/>
+   <object objectType="sub_view" objectID="BC059C9D-5C6F-0319-FDA8-1B288B916045" name="Dodela_cobana_ispasi" visible="true"/>
+   <object objectType="sub_view" objectID="8A264F85-F76E-5D6E-ADF3-3F52D53C50AF" name="Dodela_ovce_stadu" visible="true"/>
+   <object objectType="sub_view" objectID="46DE32BE-065A-7435-3EBC-146FE288790D" name="Dodela_Psa_ispasi" visible="true"/>
+   <object objectType="sub_view" objectID="88E506D9-9B67-A713-3201-8DED5B5FAF8E" name="Dodela_rute_ispasi" visible="true"/>
+   <object objectType="sub_view" objectID="DE7330FD-20F6-62B5-6655-58E83E944A93" name="Dodela_stada_ispasi" visible="true"/>
+   <object objectType="sub_view" objectID="EEA2FE29-781F-19F1-4DD4-883019257FE7" name="Izvestaj_Pasnjaka" visible="true"/>
+   <object objectType="sub_view" objectID="A655879D-B668-234B-7C1B-3C97D75BE11E" name="Novo_Bolest" visible="true"/>
+   <object objectType="sub_view" objectID="21058F94-D022-0069-960E-410BA490BB7C" name="Novo_Prodaja_proizvod" visible="true"/>
+   <object objectType="sub_view" objectID="C685B255-C580-2FEC-1BC0-1DE4121BF718" name="Novo_turn_brisanje" visible="true"/>
+   <object objectType="sub_view" objectID="63548D75-130E-1754-5A73-D8D33EDD3AD2" name="Novo_vakcinacija" visible="true"/>
+   <object objectType="sub_view" objectID="61630930-C45B-4C5D-2C30-7DCC30979D3C" name="Novo_vakcinacija_stada" visible="true"/>
+   <object objectType="sub_view" objectID="73128F44-2BAF-C9A6-CD87-5D3E3D90E19A" name="Ocenjivanje" visible="true"/>
+   <object objectType="sub_view" objectID="B8131B72-DE17-0D17-0867-94440E996347" name="Pomeranje_Ovce_Izmedju_Stada" visible="true"/>
+   <object objectType="sub_view" objectID="F733C346-6E90-6809-F384-A2D6BDBC4606" name="Prehrana" visible="true"/>
+   <object objectType="sub_view" objectID="0D84CA15-89AB-3218-15BD-F55BCECCF5EC" name="Ruta_Opis" visible="true"/>
+   <object objectType="sub_view" objectID="E85466D4-6093-3EB5-A58B-B806BF4D79AC" name="Skupljanje_Mleko_Vuna" visible="true"/>
+   <object objectType="sub_view" objectID="5C92DD0A-C7DB-7C32-8C33-BFDC0D1F1E06" name="Stado_Domacinstvo" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="672AE84D-7CDD-EE81-00DA-C6229746A0BE" name="Rodjenje_fact">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 15:35:56 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<ordsAlias>table_40</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ovca_dim_roditelj1" id="B5CEB4E1-F42B-9760-F170-8D80BBFCB80C">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 15:36:20 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FEEC13A-CE4F-3FEB-DD9B-E8DF425ED067" referredColumn="53A0B933-D5DD-8E43-BE68-C411BB0BB903"/>
+</associations>
+</Column>
+<Column name="Ovca_dim_roditelj2" id="0C07CB8A-C905-CD70-B2AF-7D87B161F442">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 15:36:32 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FAF50E8C-1851-E7AD-9E84-16CECC348E7F" referredColumn="53A0B933-D5DD-8E43-BE68-C411BB0BB903"/>
+</associations>
+</Column>
+<Column name="Ovca_dim_ovca" id="C6B36309-3A72-3357-35F9-989556828EFE">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 15:36:57 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EEB3D0C-BF39-D764-7E5B-2433D94A3E1E" referredColumn="53A0B933-D5DD-8E43-BE68-C411BB0BB903"/>
+</associations>
+</Column>
+<Column name="Datum_i_Vreme_dim_id" id="60C78829-6856-C43F-0CD0-177A6CF993A2">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 15:36:50 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="373229BA-57AE-F50C-F443-8049048808E5" referredColumn="9787242E-8143-FCBE-47A2-F2980F0B03A6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61833470-5BB8-FA17-5B09-A12F5F4AA953" name="Rodjenje_fact_Ovca_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 15:36:20 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5CEB4E1-F42B-9760-F170-8D80BBFCB80C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1214A303-6DE9-FF92-85BD-E1DF712BEAC8" name="Rodjenje_fact_Ovca_dim_FKv2">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 15:36:32 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C07CB8A-C905-CD70-B2AF-7D87B161F442"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0896F14D-69AF-21DF-0DCC-FB79DFD19128" name="Rodjenje_fact_Datum_i_Vreme_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 15:36:50 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60C78829-6856-C43F-0CD0-177A6CF993A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="979E791F-9A3F-03BC-D4F2-567DD7333F09" name="Rodjenje_fact_Ovca_dim_FKv3">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 15:36:57 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6B36309-3A72-3357-35F9-989556828EFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

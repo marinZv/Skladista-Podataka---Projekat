@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CAD95F73-1C61-871F-0031-C3F98BD9CC80" name="Ocenjivanje_fact">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 15:12:13 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<ordsAlias>table_37</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pasnjak_dim_id" id="2A143B0D-8ACD-AE8F-ED68-8E6B4153BBFA">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 15:12:23 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2216A95-2A42-C22D-0670-C0AFC176141C" referredColumn="4276B54F-B303-3BDF-E2D2-2871854EDB49"/>
+</associations>
+</Column>
+<Column name="Datum_i_Vreme_dim_id" id="4A3188AA-1778-D833-DAD7-4AF39E0904F7">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 15:12:29 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7E01604-EC74-4684-5812-F995E03A8D8D" referredColumn="9787242E-8143-FCBE-47A2-F2980F0B03A6"/>
+</associations>
+</Column>
+<Column name="izvestaj_id" id="55ABE854-5EE4-9C5F-09AB-53E4BC308820">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 15:12:43 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="skor" id="32266601-D7B9-5F02-4075-7D4D71C4BDDA">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-25 12:00:29 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13E7836C-A560-5F9D-6EA7-9F0560A62934" name="Ocenjivanje_fact_PK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-28 18:41:14 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A143B0D-8ACD-AE8F-ED68-8E6B4153BBFA"/>
+<colUsage columnID="4A3188AA-1778-D833-DAD7-4AF39E0904F7"/>
+<colUsage columnID="55ABE854-5EE4-9C5F-09AB-53E4BC308820"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EFBEF295-870D-A4DA-6B35-F125DB4A611B" name="Ocenjivanje_fact_Pasnjak_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 15:12:23 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A143B0D-8ACD-AE8F-ED68-8E6B4153BBFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BEB567D-B670-1C5E-AE53-0BA8F41E07AD" name="Ocenjivanje_fact_Datum_i_Vreme_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 15:12:29 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A3188AA-1778-D833-DAD7-4AF39E0904F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

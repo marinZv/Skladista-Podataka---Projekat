@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B238A4D8-FCA3-B97D-FAF1-4212A8053C31" name="Prehrana_stado_fact">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 13:48:29 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Stado_dim_id" id="488D378A-B3D6-07D1-9605-582271047CD8">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 13:48:39 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6745DD88-439F-3434-60B2-AD397E66D7CD" referredColumn="2C254614-2332-36F9-7209-A1D25547F489"/>
+</associations>
+</Column>
+<Column name="Hrana_id" id="7E56DCDE-48C5-B860-A2D3-739A70B46C34">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 13:49:13 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EBD1132-CD2D-83F9-6028-B6F546668C57" referredColumn="461D5D76-8F79-5169-CE72-DB7355619188"/>
+</associations>
+</Column>
+<Column name="Proizvodjac_dim_id" id="F4539BA1-A41B-4EA7-2167-BA96AD762877">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 13:50:46 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="350E6207-DF47-8176-6CC2-3CCDC060E3B3" referredColumn="0326AA32-7AC8-1255-6EA5-734D29213BCE"/>
+</associations>
+</Column>
+<Column name="Datum_i_Vreme_dim" id="281F10A9-4A76-68B3-CE9E-3D8C5E0860AE">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 14:01:41 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBDAE4E8-F2F2-72FC-731F-272DD55A44FF" referredColumn="9787242E-8143-FCBE-47A2-F2980F0B03A6"/>
+</associations>
+</Column>
+<Column name="kolicina" id="35C2E11B-F7CF-B363-910E-29D3F1E8D1E2">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 13:49:36 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4ABF4203-F7BB-D235-EE6C-605560E7A8F0" name="Prehrana_stado_fact_PK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-28 18:41:55 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="488D378A-B3D6-07D1-9605-582271047CD8"/>
+<colUsage columnID="7E56DCDE-48C5-B860-A2D3-739A70B46C34"/>
+<colUsage columnID="F4539BA1-A41B-4EA7-2167-BA96AD762877"/>
+<colUsage columnID="281F10A9-4A76-68B3-CE9E-3D8C5E0860AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7728D7A2-C84E-5549-5DE7-D1DEDFDC47D5" name="Prehrana_fact_Stado_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 13:48:39 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="488D378A-B3D6-07D1-9605-582271047CD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38032031-BEE6-497D-A5C7-A75AEC5D6FAC" name="Prehrana_fact_Hrana_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 13:49:13 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E56DCDE-48C5-B860-A2D3-739A70B46C34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED89BB5C-6E58-F28A-ED93-D5F9D54F9704" name="Prehrana_fact_Proizvodjac_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 13:50:46 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4539BA1-A41B-4EA7-2167-BA96AD762877"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53C95325-FB40-F2A6-4716-3943BDF501AC" name="Prehrana_fact_Datum_i_Vreme_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 14:01:41 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="281F10A9-4A76-68B3-CE9E-3D8C5E0860AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

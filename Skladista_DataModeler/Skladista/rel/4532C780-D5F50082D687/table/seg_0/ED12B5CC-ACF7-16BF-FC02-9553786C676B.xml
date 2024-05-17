@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED12B5CC-ACF7-16BF-FC02-9553786C676B" name="Vakcinacija_fact">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-23 13:32:29 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<ordsAlias>table_52</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Vakcina_dim_id" id="0EC36CC9-D296-24EA-8E85-F38F071CD9C1">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-23 13:33:16 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06D5BD31-3250-3A95-0F66-2A37B915260C" referredColumn="E5B886D5-7F3D-D3F2-D200-4B41B4370998"/>
+</associations>
+</Column>
+<Column name="Bolest_dim_id" id="E6A1E28A-AC89-0657-E7E3-D27E4421F849">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-23 13:33:23 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27CCB48F-80EA-4BEB-F20A-4EA36FB9D0FB" referredColumn="92044799-CE0A-39B6-51E6-D0682A93943F"/>
+</associations>
+</Column>
+<Column name="Datum_i_Vreme_dim_id" id="93F4CFC8-37F8-F174-C30A-AE0154653D9E">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-23 13:33:30 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C6496AF-AF0C-E622-9156-7CE3552B22D8" referredColumn="9787242E-8143-FCBE-47A2-F2980F0B03A6"/>
+</associations>
+</Column>
+<Column name="Ovca_dim_id" id="962C7761-BB76-FE4D-5530-A145DF7579C7">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-25 12:01:43 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53FFE4D9-B992-6C66-DD62-99EC7A6FBAE7" referredColumn="53A0B933-D5DD-8E43-BE68-C411BB0BB903"/>
+</associations>
+</Column>
+<Column name="Stado_dim_id" id="343AF2AF-2A58-280F-2B97-75DD3D4E0A45">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-28 17:52:14 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8700F0B-8626-6800-1216-F1F51AD9CF42" referredColumn="2C254614-2332-36F9-7209-A1D25547F489"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2421AD9B-2733-E2B7-D28A-1B606D0CC1DD" name="Vakcinacija_fact_PK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-28 18:40:52 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EC36CC9-D296-24EA-8E85-F38F071CD9C1"/>
+<colUsage columnID="E6A1E28A-AC89-0657-E7E3-D27E4421F849"/>
+<colUsage columnID="93F4CFC8-37F8-F174-C30A-AE0154653D9E"/>
+<colUsage columnID="962C7761-BB76-FE4D-5530-A145DF7579C7"/>
+<colUsage columnID="343AF2AF-2A58-280F-2B97-75DD3D4E0A45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="313F17DD-5C3A-8BCF-1F40-82A81B82398F" name="Vakcinacija_fact_Vakcina_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-23 13:33:16 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EC36CC9-D296-24EA-8E85-F38F071CD9C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E07B013-D4A7-B857-B134-FF270812D953" name="Vakcinacija_fact_Bolest_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-23 13:33:23 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6A1E28A-AC89-0657-E7E3-D27E4421F849"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9ED56B9E-2A4A-4335-46D3-104B5E8B0AB5" name="Vakcinacija_fact_Datum_i_Vreme_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-23 13:33:30 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93F4CFC8-37F8-F174-C30A-AE0154653D9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8DB3008-6659-2092-AF24-6C4DD0EE0B52" name="Vakcinacija_fact_Ovca_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-25 12:01:43 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="962C7761-BB76-FE4D-5530-A145DF7579C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A37E20C-8993-E1EB-36E2-1059311A27C7" name="Vakcinacija_fact_Stado_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-28 17:52:14 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="343AF2AF-2A58-280F-2B97-75DD3D4E0A45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

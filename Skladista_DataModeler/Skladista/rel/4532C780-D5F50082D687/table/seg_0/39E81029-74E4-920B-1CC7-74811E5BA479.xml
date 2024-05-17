@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39E81029-74E4-920B-1CC7-74811E5BA479" name="Inventar_fact">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-23 12:10:25 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<ordsAlias>table_42</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Neobradjeni_proizvod_dim_id" id="9ABD7D80-6124-1FDB-F3CA-E178701DB9AC">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-23 12:24:47 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BF657D3-9F17-593A-018F-F5CACCDBE65F" referredColumn="CC0483A3-8829-3A5E-B7D2-EB096ACF2562"/>
+</associations>
+</Column>
+<Column name="Prodavnica_dim_id" id="5041DC27-FC82-C21C-938D-6FE5CC792F6B">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-23 12:10:48 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB3AC7FA-C6F5-4883-321B-F0A1A29B34FA" referredColumn="F229D3B4-7BEB-40F0-8A7D-F7C132D98DD3"/>
+</associations>
+</Column>
+<Column name="Odgovorna_osoba_dim_id" id="A9755DDC-3DB3-B380-3D6E-83B9A585370E">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-23 12:19:18 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C7BA713-8E99-43F3-760E-7D5C853CABB0" referredColumn="39113D4F-9132-8450-5FE6-2802F027FE2B"/>
+</associations>
+</Column>
+<Column name="Datum_i_Vreme_dim_id" id="998B8B9D-2A80-8243-8C12-469A16B2F710">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-23 12:11:03 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC3CBC95-93B0-B494-AF5F-4257AEE16B39" referredColumn="9787242E-8143-FCBE-47A2-F2980F0B03A6"/>
+</associations>
+</Column>
+<Column name="trenutna_kolicina" id="1BA6F59F-BD5C-E5F3-76EB-B2049540EE7B">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-23 12:11:54 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prodata_kolicina" id="8EF8793B-8F7A-86AE-5D3A-C28C2430AF02">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-23 12:11:54 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="minimalna_kolicina" id="66E13A4F-78D3-6D45-5BB2-61084163DC5F">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-23 12:16:54 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="turn" id="45F9E04A-408E-D3D2-AF26-98D9280A831A">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-30 16:45:51 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="117E4D8C-74FB-9374-6F00-7690FC739275" name="Inventar_fact_PK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-28 18:39:05 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9ABD7D80-6124-1FDB-F3CA-E178701DB9AC"/>
+<colUsage columnID="5041DC27-FC82-C21C-938D-6FE5CC792F6B"/>
+<colUsage columnID="A9755DDC-3DB3-B380-3D6E-83B9A585370E"/>
+<colUsage columnID="998B8B9D-2A80-8243-8C12-469A16B2F710"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE35C889-2746-B0F4-7EF7-638CC43A7B91" name="Inventar_fact_Prodavnica_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-23 12:10:48 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5041DC27-FC82-C21C-938D-6FE5CC792F6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9AC62CEA-9A12-738E-B483-E5B395178181" name="Inventar_fact_Datum_i_Vreme_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-23 12:11:03 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="998B8B9D-2A80-8243-8C12-469A16B2F710"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5153CFA1-004D-0A64-3023-FD12BCB4F2D8" name="Inventar_fact_Odgovorna_osoba_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-23 12:19:18 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9755DDC-3DB3-B380-3D6E-83B9A585370E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97EF5659-CC5C-559F-2EDC-0CCD92E22427" name="Inventar_fact_Neobradjeni_proizvod_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-23 12:24:47 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9ABD7D80-6124-1FDB-F3CA-E178701DB9AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

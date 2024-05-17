@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B2BF5302-624D-9F01-1CAC-A849477828E0" containerWithKeyObject="47453286-6BE7-7E87-7657-BE017B97E6BA" localFKIndex="56F294D7-3420-1C6B-837E-A45FF9F27469" name="Dodela_psa_ispasi_fact_Pas_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 12:45:54 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<referredTableLongName>Pas_dim</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E7BAD302-90E8-E47F-0776-DD90D5CF031D</referredTableID>
+<keyObject>3C0BE3B4-824E-8B26-3F09-774B3BF1AF01</keyObject>
+<referredKeyID>3C0BE3B4-824E-8B26-3F09-774B3BF1AF01</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

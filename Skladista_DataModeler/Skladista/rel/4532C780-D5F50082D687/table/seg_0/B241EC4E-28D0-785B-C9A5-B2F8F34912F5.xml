@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B241EC4E-28D0-785B-C9A5-B2F8F34912F5" name="Neobradjeni_proizvod_dim">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-15 08:53:26 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="CC0483A3-8829-3A5E-B7D2-EB096ACF2562">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 14:46:25 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="AD5F6E3F-DDCD-9B60-CA25-6862112C9D31">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 14:46:25 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kvalitet" id="DF6E34B0-BBF4-4604-099A-9EB2DE319D2E">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 14:46:25 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mera" id="2C771F33-EDE9-30D5-2EF8-856A21512495">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-23 13:08:32 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E2C7007-50F0-80C8-08E3-4936F820EAFF" name="Neobradjeni_proizvod_dim_PK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 14:46:25 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC0483A3-8829-3A5E-B7D2-EB096ACF2562"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

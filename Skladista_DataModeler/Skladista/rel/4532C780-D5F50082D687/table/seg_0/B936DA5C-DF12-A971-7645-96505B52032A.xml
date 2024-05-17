@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B936DA5C-DF12-A971-7645-96505B52032A" name="Geolokacija_dim">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 12:58:19 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="19D49874-5246-E753-44B3-E1B99E06B9E0">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 12:58:56 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC92A78B-571E-CC81-7F24-536B50632C75" name="Geolokacija_dim_PK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-13 12:58:56 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19D49874-5246-E753-44B3-E1B99E06B9E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

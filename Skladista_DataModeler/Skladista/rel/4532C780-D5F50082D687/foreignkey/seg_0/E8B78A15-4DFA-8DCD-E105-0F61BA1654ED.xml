@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E8B78A15-4DFA-8DCD-E105-0F61BA1654ED" containerWithKeyObject="D5017E92-7C61-49A3-D79E-5DA46D410FFA" localFKIndex="8F4F8AD0-1914-82AC-8F14-53724E192881" name="Izvestaj_fact_Flora_i_fauna_dim_FK">
+<createdBy>Milan</createdBy>
+<createdTime>2023-12-22 15:16:59 UTC</createdTime>
+<ownerDesignName>Skladista</ownerDesignName>
+<referredTableLongName>Flora_i_fauna_dim</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7DDDB93D-52EC-F085-8778-4D53B2FF3E6F</referredTableID>
+<keyObject>5E8AC90A-B9FD-8B24-B3F0-E31925B8A6E4</keyObject>
+<referredKeyID>5E8AC90A-B9FD-8B24-B3F0-E31925B8A6E4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
